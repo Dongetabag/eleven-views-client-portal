@@ -54,7 +54,7 @@ export default function AppHome() {
         {[
           { href: "/app/files", icon: FileText, label: "Latest file", sub: "Homepage draft v3", tone: "neutral" },
           { href: "/app/messages", icon: MessageCircle, label: "Message from your agent", sub: "Simeon, 2 hrs ago", tone: "accent" },
-          { href: "#atlas", icon: Sparkles, label: "Ask Atlas", sub: "What's pending this week?", tone: "accent" },
+          { href: "/creator-protect", icon: Sparkles, label: "Creator Protect", sub: "Finds, removals, privacy", tone: "accent" },
         ].map((c) => (
           <Link key={c.label} href={c.href} className="card card-hover p-5 block">
             <div className={`w-8 h-8 rounded-lg flex items-center justify-center mb-3 ${c.tone === "accent" ? "bg-[#7C6FEB]/12" : "bg-[#F5F5F7]/5"}`}>
