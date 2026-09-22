@@ -295,8 +295,11 @@ export default function CreatorProtectDashboard({
                   </div>
                 </div>
                 <p className="cp-hero-copy">
-                  We found matches on public sites and prepared next steps. You stay in control of
-                  every removal.
+                  We watch the public web for copies of your work, prepare next steps, and you stay
+                  in control of every removal.
+                </p>
+                <p className="cp-sources" aria-label="Watch coverage">
+                  Public web · Reddit · YouTube · galleries · more platforms as we expand
                 </p>
                 <div className="cp-actions">
                   <button type="button" className="cp-btn cp-btn-primary" onClick={() => go("findings")}>
@@ -400,7 +403,8 @@ export default function CreatorProtectDashboard({
                 <p className="cp-eyebrow">Findings</p>
                 <h2 className="cp-page-title">What we found</h2>
                 <p className="cp-page-copy">
-                  Plain language. No jargon. Tap a card to prepare a removal request.
+                  Matches from the public web and major platforms. Tap a card to prepare a removal
+                  request.
                 </p>
               </div>
               <div className="cp-section" style={{ animationDelay: "200ms" }}>
