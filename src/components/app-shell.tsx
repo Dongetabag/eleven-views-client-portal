@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Folder, FileText, MessageCircle, CreditCard, Settings, Sparkles, Bell, ChevronDown } from "lucide-react";
+import { Home, Folder, FileText, MessageCircle, CreditCard, Settings, Sparkles, Bell, ChevronDown, Activity } from "lucide-react";
 import { ReactNode, useState } from "react";
 
 const navItems = [
@@ -10,6 +10,7 @@ const navItems = [
   { href: "/app/projects", label: "Projects", icon: Folder },
   { href: "/app/files", label: "Files", icon: FileText },
   { href: "/app/messages", label: "Messages", icon: MessageCircle },
+  { href: "/pulse", label: "Pulse", icon: Activity },
   { href: "/app/billing", label: "Billing", icon: CreditCard },
   { href: "/app/settings", label: "Settings", icon: Settings },
 ];
